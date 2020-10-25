@@ -1,7 +1,7 @@
 # Invoice-Generator
 My father and brother are both self-employed truck drivers. They both receive a list of charter costs every week in a PDF file in different formats. This program reads the text in the PDF file and searches for patterns in the text. With the GUI (image below), I can select which company I'm generating the invoice for. This way the program knows the format of the list of charter costs. It also fills in the correct company data in the Word template (second image below). 
 
-After filling in the the company data, the program generates a table in the Word template, filled in with the results of the pattern search. 
+After filling in the the company data, the program generates a table in the Word template, filled in with the results of the pattern search. The standard text at the end is also automatically generated and the blanks are filled in.
 
 The program GUI. It automatically generates an invoice number based on the company, and the current year and week. It only takes a couple of clicks to generate an invoice in Word format and save it in PDF format as well:
 
